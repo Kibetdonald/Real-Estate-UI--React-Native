@@ -12,6 +12,7 @@ import {
   Pressable,
   ScrollView,
 } from "react-native";
+// import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
 import COLORS from "../const/colors";
 import Icon from "react-native-vector-icons/MaterialIcons";
 import allData from "../const/data";
@@ -109,7 +110,7 @@ const HomeScreen = ({ navigation }) => {
                 <Text style={style.facilityText}>2</Text>
               </View>
               <View style={style.facility}>
-                <Icon name="bathtub" size={18} />
+                <Icon name="arrowleft" size={18} />
                 <Text style={style.facilityText}>2</Text>
               </View>
               <View style={style.facility}>
